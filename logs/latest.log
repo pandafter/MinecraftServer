@@ -1,28 +1,223 @@
-[18:37:00] [main/INFO] [cpw.mods.modlauncher.Launcher]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.3.5, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, nogui]
-[18:37:00] [main/INFO] [cpw.mods.modlauncher.Launcher]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 22.0.2 by Oracle Corporation; OS Windows 11 arch amd64 version 10.0
-[18:37:00] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler]: ImmediateWindowProvider not loading because launch target is forgeserver
-[18:37:00] [main/INFO] [mixin]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/D:/MinecraftServer/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%23113!/ Service=ModLauncher Env=SERVER
-[18:37:01] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator]: Found 3 dependencies adding them to mods collection
-[18:37:02] [main/INFO] [mixin]: Compatibility level set to JAVA_17
-[18:37:02] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler]: Launching target 'forgeserver' with arguments [nogui]
-[18:37:02] [main/INFO] [MixinExtras|Service]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.5).
-[18:37:07] [modloading-worker-0/INFO] [be.florens.expandability.ExpandAbility]: ExpandAbility here, who dis?
-[18:37:07] [modloading-worker-0/INFO] [com.mohistmc.MohistMC]: Mohist mod loading.....
-[18:37:07] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod]: Forge mod loading, version 47.3.5, for MC 1.20.1 with MCP 20230612.114412
-[18:37:07] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge]: MinecraftForge v47.3.5 Initialized
-[18:37:07] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge]: NeoForge v47.1.105 Initialized
-[18:37:07] [modloading-worker-0/INFO] [com.mohistmc.MohistMC]: EventDispatcherRegistry initialized
-[18:37:07] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl]: Registering C2S receiver with id architectury:sync_ids
-[18:37:07] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl]: Registering C2S receiver with id artifacts:networking_channel/42a7ad70b1cc371599a0eff744096b8a
-[18:37:07] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl]: Registering C2S receiver with id artifacts:networking_channel/74a5e841822a3a87854ae896a33430d6
-[18:37:07] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl]: Registering C2S receiver with id artifacts:networking_channel/eb3d1e2748533430848cadf0f37c7e9c
-[18:37:07] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl]: Registering C2S receiver with id artifacts:networking_channel/91c8520f19f93b3e8b6a727568e194ab
-[18:37:07] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl]: Registering C2S receiver with id artifacts:networking_channel/8c2784d778293fd482ed84b8aa5fedb9
-[18:37:07] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl]: Registering C2S receiver with id artifacts:networking_channel/ea038224ea783d40b2863f52239e2604
-[18:37:07] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl]: Registering C2S receiver with id artifacts:networking_channel/97ad64b7ecaf33209991c4f031501a58
-[18:37:08] [main/INFO] [terrablender]: Registered region minecraft:overworld to index 0 for type OVERWORLD
-[18:37:08] [main/INFO] [terrablender]: Registered region minecraft:nether to index 0 for type NETHER
-[18:37:08] [main/INFO] [terrablender]: Registered region regions_unexplored:primary to index 1 for type OVERWORLD
-[18:37:08] [main/INFO] [terrablender]: Registered region regions_unexplored:secondary to index 2 for type OVERWORLD
-[18:37:08] [main/INFO] [terrablender]: Registered region regions_unexplored:nether to index 1 for type NETHER
-[18:37:09] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[11:51:27] [main/INFO] [cpw.mods.modlauncher.Launcher]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.3.5, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, nogui]
+[11:51:27] [main/INFO] [cpw.mods.modlauncher.Launcher]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 22.0.2 by Oracle Corporation; OS Windows 11 arch amd64 version 10.0
+[11:51:27] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler]: ImmediateWindowProvider not loading because launch target is forgeserver
+[11:51:27] [main/INFO] [mixin]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/D:/MinecraftServer/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%23113!/ Service=ModLauncher Env=SERVER
+[11:51:28] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator]: Found 3 dependencies adding them to mods collection
+[11:51:29] [main/INFO] [mixin]: Compatibility level set to JAVA_17
+[11:51:29] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler]: Launching target 'forgeserver' with arguments [nogui]
+[11:51:30] [main/INFO] [MixinExtras|Service]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.5).
+[11:51:34] [modloading-worker-0/INFO] [be.florens.expandability.ExpandAbility]: ExpandAbility here, who dis?
+[11:51:34] [modloading-worker-0/INFO] [com.mohistmc.MohistMC]: Mohist mod loading.....
+[11:51:34] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod]: Forge mod loading, version 47.3.5, for MC 1.20.1 with MCP 20230612.114412
+[11:51:34] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge]: MinecraftForge v47.3.5 Initialized
+[11:51:34] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge]: NeoForge v47.1.105 Initialized
+[11:51:34] [modloading-worker-0/INFO] [com.mohistmc.MohistMC]: EventDispatcherRegistry initialized
+[11:51:34] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl]: Registering C2S receiver with id architectury:sync_ids
+[11:51:34] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl]: Registering C2S receiver with id artifacts:networking_channel/42a7ad70b1cc371599a0eff744096b8a
+[11:51:34] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl]: Registering C2S receiver with id artifacts:networking_channel/74a5e841822a3a87854ae896a33430d6
+[11:51:34] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl]: Registering C2S receiver with id artifacts:networking_channel/eb3d1e2748533430848cadf0f37c7e9c
+[11:51:34] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl]: Registering C2S receiver with id artifacts:networking_channel/91c8520f19f93b3e8b6a727568e194ab
+[11:51:34] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl]: Registering C2S receiver with id artifacts:networking_channel/8c2784d778293fd482ed84b8aa5fedb9
+[11:51:34] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl]: Registering C2S receiver with id artifacts:networking_channel/ea038224ea783d40b2863f52239e2604
+[11:51:34] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl]: Registering C2S receiver with id artifacts:networking_channel/97ad64b7ecaf33209991c4f031501a58
+[11:51:35] [main/INFO] [terrablender]: Registered region minecraft:overworld to index 0 for type OVERWORLD
+[11:51:35] [main/INFO] [terrablender]: Registered region minecraft:nether to index 0 for type NETHER
+[11:51:35] [main/INFO] [terrablender]: Registered region regions_unexplored:primary to index 1 for type OVERWORLD
+[11:51:35] [main/INFO] [terrablender]: Registered region regions_unexplored:secondary to index 2 for type OVERWORLD
+[11:51:35] [main/INFO] [terrablender]: Registered region regions_unexplored:nether to index 1 for type NETHER
+[11:51:36] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[11:51:37] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Loaded 7 recipes
+[11:51:38] [main/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 1945 advancements
+[11:51:38] [main/INFO] [top.theillusivec4.curios.Curios]: Loaded 11 curio slots
+[11:51:38] [main/INFO] [top.theillusivec4.curios.Curios]: Loaded 10 curio entities
+[11:51:38] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Starting minecraft server version 1.20.1
+[11:51:38] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Loading properties
+[11:51:38] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Default game type: SURVIVAL
+[11:51:38] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Generating keypair
+[11:51:38] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Starting Minecraft server on *:25565
+[11:51:38] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener]: Using default channel type
+[11:51:38] [Server thread/INFO] [Minecraft]: This server is running Mohist version 1.20.1-812 (MC: 1.20.1) (Implementing API version 1.20.1-R0.1-SNAPSHOT, Forge version 47.3.5, NeoForge version 47.1.105)
+[11:51:39] [Server thread/INFO] [Minecraft]: Debug logging is enabled
+[11:51:39] [Server thread/INFO] [Minecraft]: Using 4 threads for Netty based IO
+[11:51:39] [Server thread/INFO] []: Server Ping Player Sample Count: 12
+[11:51:40] [Server thread/INFO] [me.lucko.luckperms.bukkit.loader.BukkitLoaderPlugin]: [LuckPerms] Loading LuckPerms v5.4.131
+[11:51:40] [Server thread/INFO] [com.earth2me.essentials.Essentials]: [Essentials] Loading Essentials v2.20.1
+[11:51:40] [Server thread/INFO] [com.earth2me.essentials.chat.EssentialsChat]: [EssentialsChat] Loading EssentialsChat v2.20.1
+[11:51:40] [Server thread/INFO] [me.lucko.luckperms.bukkit.loader.BukkitLoaderPlugin]: [LuckPerms] Enabling LuckPerms v5.4.131
+[11:51:41] [Server thread/INFO] [Console]:         __    
+[11:51:41] [Server thread/INFO] [Console]:   |    |__)   LuckPerms v5.4.131
+[11:51:41] [Server thread/INFO] [Console]:   |___ |      Running on Bukkit - Mohist
+[11:51:41] [Server thread/INFO] [Console]: 
+[11:51:41] [Server thread/INFO] [me.lucko.luckperms.bukkit.loader.BukkitLoaderPlugin]: [LuckPerms] Loading configuration...
+[11:51:41] [Server thread/INFO] [me.lucko.luckperms.bukkit.loader.BukkitLoaderPlugin]: [LuckPerms] Loading storage provider... [H2]
+[11:51:42] [Server thread/INFO] [me.lucko.luckperms.bukkit.loader.BukkitLoaderPlugin]: [LuckPerms] Loading internal permission managers...
+[11:51:42] [Server thread/INFO] [me.lucko.luckperms.bukkit.loader.BukkitLoaderPlugin]: [LuckPerms] Performing initial data load...
+[11:51:42] [Server thread/INFO] [me.lucko.luckperms.bukkit.loader.BukkitLoaderPlugin]: [LuckPerms] Successfully enabled. (took 2498ms)
+[11:51:43] [Server thread/INFO] [terrablender]: Initialized TerraBlender biomes for level stem minecraft:the_nether
+[11:51:43] [Server thread/INFO] [terrablender]: Initialized TerraBlender biomes for level stem minecraft:overworld
+[11:51:43] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Preparing level "world"
+[11:51:43] [Server thread/INFO] [Minecraft]: -------- World Settings For [world] --------
+[11:51:43] [Server thread/INFO] [Minecraft]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[11:51:43] [Server thread/INFO] [Minecraft]: Allow Zombie Pigmen to spawn from portal blocks: true
+[11:51:43] [Server thread/INFO] [Minecraft]: Item Despawn Rate: 6000
+[11:51:43] [Server thread/INFO] [Minecraft]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
+[11:51:43] [Server thread/INFO] [Minecraft]: Nerfing mobs spawned from spawners: false
+[11:51:43] [Server thread/INFO] [Minecraft]: Zombie Aggressive Towards Villager: true
+[11:51:43] [Server thread/INFO] [Minecraft]: Cactus Growth Modifier: 100%
+[11:51:43] [Server thread/INFO] [Minecraft]: Cane Growth Modifier: 100%
+[11:51:43] [Server thread/INFO] [Minecraft]: Melon Growth Modifier: 100%
+[11:51:43] [Server thread/INFO] [Minecraft]: Mushroom Growth Modifier: 100%
+[11:51:43] [Server thread/INFO] [Minecraft]: Pumpkin Growth Modifier: 100%
+[11:51:43] [Server thread/INFO] [Minecraft]: Sapling Growth Modifier: 100%
+[11:51:43] [Server thread/INFO] [Minecraft]: Beetroot Growth Modifier: 100%
+[11:51:43] [Server thread/INFO] [Minecraft]: Carrot Growth Modifier: 100%
+[11:51:43] [Server thread/INFO] [Minecraft]: Potato Growth Modifier: 100%
+[11:51:43] [Server thread/INFO] [Minecraft]: Wheat Growth Modifier: 100%
+[11:51:43] [Server thread/INFO] [Minecraft]: NetherWart Growth Modifier: 100%
+[11:51:43] [Server thread/INFO] [Minecraft]: Vine Growth Modifier: 100%
+[11:51:43] [Server thread/INFO] [Minecraft]: Cocoa Growth Modifier: 100%
+[11:51:43] [Server thread/INFO] [Minecraft]: Bamboo Growth Modifier: 100%
+[11:51:43] [Server thread/INFO] [Minecraft]: SweetBerry Growth Modifier: 100%
+[11:51:43] [Server thread/INFO] [Minecraft]: Kelp Growth Modifier: 100%
+[11:51:43] [Server thread/INFO] [Minecraft]: TwistingVines Growth Modifier: 100%
+[11:51:43] [Server thread/INFO] [Minecraft]: WeepingVines Growth Modifier: 100%
+[11:51:43] [Server thread/INFO] [Minecraft]: CaveVines Growth Modifier: 100%
+[11:51:43] [Server thread/INFO] [Minecraft]: Mob Spawn Range: 6
+[11:51:43] [Server thread/INFO] [Minecraft]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Di 128 / Other 64
+[11:51:43] [Server thread/INFO] [Minecraft]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[11:51:43] [Server thread/INFO] [Minecraft]: Max TNT Explosions: 100
+[11:51:43] [Server thread/INFO] [Minecraft]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
+[11:51:43] [Server thread/INFO] [Minecraft]: Simulation Distance: 10
+[11:51:43] [Server thread/INFO] [Minecraft]: View Distance: 6
+[11:51:43] [Server thread/INFO] [Minecraft]: Experience Merge Radius: 3.0
+[11:51:43] [Server thread/INFO] [Minecraft]: Item Merge Radius: 2.5
+[11:51:43] [Server thread/INFO] [Minecraft]: -------- World Settings For [DIM-1] --------
+[11:51:43] [Server thread/INFO] [Minecraft]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[11:51:43] [Server thread/INFO] [Minecraft]: Allow Zombie Pigmen to spawn from portal blocks: true
+[11:51:43] [Server thread/INFO] [Minecraft]: Item Despawn Rate: 6000
+[11:51:43] [Server thread/INFO] [Minecraft]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
+[11:51:43] [Server thread/INFO] [Minecraft]: Nerfing mobs spawned from spawners: false
+[11:51:43] [Server thread/INFO] [Minecraft]: Zombie Aggressive Towards Villager: true
+[11:51:43] [Server thread/INFO] [Minecraft]: Cactus Growth Modifier: 100%
+[11:51:43] [Server thread/INFO] [Minecraft]: Cane Growth Modifier: 100%
+[11:51:43] [Server thread/INFO] [Minecraft]: Melon Growth Modifier: 100%
+[11:51:43] [Server thread/INFO] [Minecraft]: Mushroom Growth Modifier: 100%
+[11:51:43] [Server thread/INFO] [Minecraft]: Pumpkin Growth Modifier: 100%
+[11:51:43] [Server thread/INFO] [Minecraft]: Sapling Growth Modifier: 100%
+[11:51:43] [Server thread/INFO] [Minecraft]: Beetroot Growth Modifier: 100%
+[11:51:43] [Server thread/INFO] [Minecraft]: Carrot Growth Modifier: 100%
+[11:51:43] [Server thread/INFO] [Minecraft]: Potato Growth Modifier: 100%
+[11:51:43] [Server thread/INFO] [Minecraft]: Wheat Growth Modifier: 100%
+[11:51:43] [Server thread/INFO] [Minecraft]: NetherWart Growth Modifier: 100%
+[11:51:43] [Server thread/INFO] [Minecraft]: Vine Growth Modifier: 100%
+[11:51:43] [Server thread/INFO] [Minecraft]: Cocoa Growth Modifier: 100%
+[11:51:43] [Server thread/INFO] [Minecraft]: Bamboo Growth Modifier: 100%
+[11:51:43] [Server thread/INFO] [Minecraft]: SweetBerry Growth Modifier: 100%
+[11:51:43] [Server thread/INFO] [Minecraft]: Kelp Growth Modifier: 100%
+[11:51:43] [Server thread/INFO] [Minecraft]: TwistingVines Growth Modifier: 100%
+[11:51:43] [Server thread/INFO] [Minecraft]: WeepingVines Growth Modifier: 100%
+[11:51:43] [Server thread/INFO] [Minecraft]: CaveVines Growth Modifier: 100%
+[11:51:43] [Server thread/INFO] [Minecraft]: Mob Spawn Range: 6
+[11:51:43] [Server thread/INFO] [Minecraft]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Di 128 / Other 64
+[11:51:43] [Server thread/INFO] [Minecraft]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[11:51:43] [Server thread/INFO] [Minecraft]: Max TNT Explosions: 100
+[11:51:43] [Server thread/INFO] [Minecraft]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
+[11:51:43] [Server thread/INFO] [Minecraft]: Simulation Distance: 10
+[11:51:43] [Server thread/INFO] [Minecraft]: View Distance: 6
+[11:51:43] [Server thread/INFO] [Minecraft]: Experience Merge Radius: 3.0
+[11:51:43] [Server thread/INFO] [Minecraft]: Item Merge Radius: 2.5
+[11:51:44] [Server thread/INFO] [Minecraft]: -------- World Settings For [DIM1] --------
+[11:51:44] [Server thread/INFO] [Minecraft]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[11:51:44] [Server thread/INFO] [Minecraft]: Allow Zombie Pigmen to spawn from portal blocks: true
+[11:51:44] [Server thread/INFO] [Minecraft]: Item Despawn Rate: 6000
+[11:51:44] [Server thread/INFO] [Minecraft]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
+[11:51:44] [Server thread/INFO] [Minecraft]: Nerfing mobs spawned from spawners: false
+[11:51:44] [Server thread/INFO] [Minecraft]: Zombie Aggressive Towards Villager: true
+[11:51:44] [Server thread/INFO] [Minecraft]: Cactus Growth Modifier: 100%
+[11:51:44] [Server thread/INFO] [Minecraft]: Cane Growth Modifier: 100%
+[11:51:44] [Server thread/INFO] [Minecraft]: Melon Growth Modifier: 100%
+[11:51:44] [Server thread/INFO] [Minecraft]: Mushroom Growth Modifier: 100%
+[11:51:44] [Server thread/INFO] [Minecraft]: Pumpkin Growth Modifier: 100%
+[11:51:44] [Server thread/INFO] [Minecraft]: Sapling Growth Modifier: 100%
+[11:51:44] [Server thread/INFO] [Minecraft]: Beetroot Growth Modifier: 100%
+[11:51:44] [Server thread/INFO] [Minecraft]: Carrot Growth Modifier: 100%
+[11:51:44] [Server thread/INFO] [Minecraft]: Potato Growth Modifier: 100%
+[11:51:44] [Server thread/INFO] [Minecraft]: Wheat Growth Modifier: 100%
+[11:51:44] [Server thread/INFO] [Minecraft]: NetherWart Growth Modifier: 100%
+[11:51:44] [Server thread/INFO] [Minecraft]: Vine Growth Modifier: 100%
+[11:51:44] [Server thread/INFO] [Minecraft]: Cocoa Growth Modifier: 100%
+[11:51:44] [Server thread/INFO] [Minecraft]: Bamboo Growth Modifier: 100%
+[11:51:44] [Server thread/INFO] [Minecraft]: SweetBerry Growth Modifier: 100%
+[11:51:44] [Server thread/INFO] [Minecraft]: Kelp Growth Modifier: 100%
+[11:51:44] [Server thread/INFO] [Minecraft]: TwistingVines Growth Modifier: 100%
+[11:51:44] [Server thread/INFO] [Minecraft]: WeepingVines Growth Modifier: 100%
+[11:51:44] [Server thread/INFO] [Minecraft]: CaveVines Growth Modifier: 100%
+[11:51:44] [Server thread/INFO] [Minecraft]: Mob Spawn Range: 6
+[11:51:44] [Server thread/INFO] [Minecraft]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Di 128 / Other 64
+[11:51:44] [Server thread/INFO] [Minecraft]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[11:51:44] [Server thread/INFO] [Minecraft]: Max TNT Explosions: 100
+[11:51:44] [Server thread/INFO] [Minecraft]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
+[11:51:44] [Server thread/INFO] [Minecraft]: Simulation Distance: 10
+[11:51:44] [Server thread/INFO] [Minecraft]: View Distance: 6
+[11:51:44] [Server thread/INFO] [Minecraft]: Experience Merge Radius: 3.0
+[11:51:44] [Server thread/INFO] [Minecraft]: Item Merge Radius: 2.5
+[11:51:44] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for dimension minecraft:overworld
+[11:51:46] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[11:51:46] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[11:51:46] [Worker-Main-12/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[11:51:46] [Worker-Main-13/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[11:51:46] [Worker-Main-8/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[11:51:47] [Worker-Main-11/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 36%
+[11:51:47] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Time elapsed: 2744 ms
+[11:51:47] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for dimension minecraft:the_nether
+[11:51:48] [Worker-Main-8/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[11:51:48] [Worker-Main-14/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[11:51:48] [Worker-Main-8/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 11%
+[11:51:48] [Worker-Main-9/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 68%
+[11:51:49] [Worker-Main-12/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 71%
+[11:51:49] [Worker-Main-6/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 81%
+[11:51:50] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 84%
+[11:51:50] [Worker-Main-8/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 89%
+[11:51:51] [Worker-Main-9/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 95%
+[11:51:51] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Time elapsed: 4199 ms
+[11:51:51] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for dimension minecraft:the_end
+[11:51:52] [Worker-Main-13/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[11:51:52] [Worker-Main-14/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[11:51:52] [Worker-Main-7/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 32%
+[11:51:52] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Time elapsed: 1344 ms
+[11:51:52] [Server thread/INFO] [com.earth2me.essentials.Essentials]: [Essentials] Enabling Essentials v2.20.1
+[11:51:52] [Server thread/INFO] [Essentials]: You are running a server with limited API functionality. EssentialsX will still work, but certain features may be disabled.
+[11:51:53] [Server thread/INFO] [Essentials]: Attempting to convert old kits in config.yml to new kits.yml
+[11:51:53] [Server thread/INFO] [Essentials]: No kits found to migrate.
+[11:51:53] [Server thread/INFO] [Essentials]: Starting Essentials ban format conversion
+[11:51:53] [Server thread/INFO] [Essentials]: Attempting to migrate ignore list to UUIDs
+[11:51:53] [Server thread/INFO] [Essentials]: Attempting to migrate legacy userdata keys to Configurate
+[11:51:53] [Server thread/INFO] [Essentials]: Loaded 39094 items from items.json.
+[11:51:53] [Server thread/INFO] [Essentials]: Using locale es_CO
+[11:51:53] [Server thread/INFO] [Essentials]: ServerListPingEvent: Spigot iterator API
+[11:51:53] [Server thread/INFO] [Essentials]: Starting Metrics. Opt-out using the global bStats config.
+[11:51:53] [Server thread/WARN] [Essentials]: Detected supported permissions plugin LuckPerms without Vault installed.
+[11:51:53] [Server thread/WARN] [Essentials]: Features such as chat prefixes/suffixes and group-related functionality will not work until you install Vault.
+[11:51:53] [Server thread/INFO] [Essentials]: Using superperms-based permissions.
+[11:51:53] [Server thread/INFO] [com.earth2me.essentials.chat.EssentialsChat]: [EssentialsChat] Enabling EssentialsChat v2.20.1
+[11:51:53] [Server thread/INFO] [EssentialsChat]: Starting Metrics. Opt-out using the global bStats config.
+[11:51:53] [Server thread/INFO] [com.mohistmc.plugins.Main]: [Mohist] Enabling Mohist v1.20.1
+[11:51:53] [Server thread/INFO] [Minecraft]: Server permissions file permissions.yml is empty, ignoring it
+[11:51:53] [Server thread/INFO] [net.regions_unexplored.RegionsUnexploredMod]: Loading dimension "minecraft:the_nether" with biome source: "minecraft:multi_noise".
+[11:51:53] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Done (10.970s)! For help, type "help"
+[11:51:53] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Starting remote control listener
+[11:51:53] [Server thread/INFO] [net.minecraft.server.rcon.thread.GenericThread]: Thread RCON Listener started
+[11:51:53] [Server thread/INFO] [net.minecraft.server.rcon.thread.RconThread]: RCON running on 0.0.0.0:25575
+[11:51:53] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI]: Successfully initialized permission handler forge:default_handler
+[11:51:53] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI]: Forwarding forge permission[forge:default_handler] to bukkit[mohist:permission]
+[11:51:54] [Craft Scheduler Thread - 0/INFO] [Essentials]: Obteniendo información de versión...
+[11:52:40] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Stopping server
+[11:52:40] [Server thread/INFO] [com.mohistmc.plugins.Main]: [Mohist] Disabling Mohist v1.20.1
+[11:52:40] [Server thread/INFO] [EssentialsChat]: Disabling EssentialsChat v2.20.1
+[11:52:40] [Server thread/INFO] [Essentials]: Disabling Essentials v2.20.1
+[11:52:40] [Server thread/INFO] [me.lucko.luckperms.bukkit.loader.BukkitLoaderPlugin]: [LuckPerms] Disabling LuckPerms v5.4.131
+[11:52:40] [Server thread/INFO] [me.lucko.luckperms.bukkit.loader.BukkitLoaderPlugin]: [LuckPerms] Starting shutdown process...
+[11:52:40] [Server thread/INFO] [me.lucko.luckperms.bukkit.loader.BukkitLoaderPlugin]: [LuckPerms] Closing storage...
+[11:52:40] [Server thread/INFO] [me.lucko.luckperms.bukkit.loader.BukkitLoaderPlugin]: [LuckPerms] Goodbye!
+[11:52:40] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving players
+[11:52:40] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving worlds

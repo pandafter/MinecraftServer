@@ -89,6 +89,7 @@ mohist:
     check: true
     downloadsource: AUTO
   installation-finished: false
+  check_update_auto_download: false
 config-version: 1
 keepinventory:
   global:
