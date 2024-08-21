@@ -909,17 +909,10 @@ chat:
   #format: '&7{PREFIX}&r {DISPLAYNAME}&r &7{SUFFIX}&r: {MESSAGE}'
 
   group-formats:
-  #  default: '{WORLDNAME} {DISPLAYNAME}&7:&r {MESSAGE}'
-  #  admins: '{WORLDNAME} &c[{GROUP}]&r {DISPLAYNAME}&7:&c {MESSAGE}'
+    admin: '{PREFIX}&c{DISPLAYNAME}&r: &c{MESSAGE}'
+    vip: '{PREFIX}&b{DISPLAYNAME}&r: &b{MESSAGE}'
+    default: '{PREFIX}&7{DISPLAYNAME}&r: &7{MESSAGE}'
 
-  # If you are using group formats make sure to remove the '#' to allow the setting to be read.
-  # Note: Group names are case-sensitive so you must match them up with your permission plugin.
-  
-  # You can use permissions to control whether players can use formatting codes in their chat messages.
-  # See https://essentialsx.net/wiki/Color-Permissions.html for more information.
-
-  # World aliases allow you to replace the world name with something different in the chat format.
-  # If you are using world aliases, make sure to remove the '#' at the start to allow the setting to be read.
   world-aliases:
   #  plots: "&dP&r"
   #  creative: "&eC&r"
